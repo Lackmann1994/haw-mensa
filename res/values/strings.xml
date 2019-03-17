@@ -1,0 +1,88 @@
+<resources>
+
+    <string name="app_name">Haw Mensa Landshut</string>
+    <string name="section_da_tomorrow">The day after tomorrow</string>
+    <string name="section_tomorrow">Tomorrow</string>
+    <string name="section_today">Today</string>
+    <string name="section_yesterday">Yesterday</string>
+    <string name="section_canteen">Canteen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="title_activity_main">Haw Mensa Landshut</string>
+    
+    <string name="spinner_favourites">Choose Favourites</string>
+    <string name="empty"></string>
+
+    <string name="contains">Meals should contain</string>
+    <string name="not_contains">Meals should not contain</string>
+    <string name="contains_detailed">Show only meals containing</string>
+    <string name="not_contains_detailed">Show only meals not containing</string>
+
+    <string name="today">today</string>
+    <string name="yesterday">yesterday</string>
+    <string name="tomorrow">tomorrow</string>
+
+    <string name="section_monday">monday</string>
+    <string name="section_tuesday">tuesday</string>
+    <string name="section_wednesday">wednesday</string>
+    <string name="section_thursday">thursday</string>
+    <string name="section_friday">friday</string>
+
+    <string name="section_next_monday">next monday</string>
+    <string name="section_next_tuesday">next tuesday</string>
+    <string name="section_next_wednesday">next wednesday</string>
+    <string name="section_next_thursday">next thursday</string>
+    <string name="section_next_friday">next friday</string>
+    
+    <string name="students">Students:</string>
+    <string name="employees">Employees:</string>
+    <string name="pupils">Pupils:</string>
+    <string name="other">Other:</string>
+    
+    <string name="address">Address:</string>
+    
+    <string name="noconnection">No internet connection.</string>
+    <string name="pleaseconnect">No internet connection available. Please connect.</string>
+    <string name="canteenclosed">This canteen is closed on this date</string>
+    <string name="noinfo">No information available</string>
+    <string name="noprice">Not available</string>
+    <string name="nomapapp">Could not find a map application</string>
+    <string name="noactivecanteens">No favourite canteens.</string>
+    <string name="chooseone">You have not yet set any active canteens. Please select at least one.</string>
+    
+    <string name="reload">Refresh canteens</string>
+    <string name="canteen_info">Canteen information</string>
+    
+    <string name="title_activity_preferences">Preferences</string>
+    
+    <string name="source_title">Source</string>
+    <string name="source_url_title">Server</string>
+    <string name="source_url_desc">Which server should be used as datasource</string>
+    <string name="source_url_default">http://openmensa.org/api/v2/</string>
+    <string name="canteen_title">Favourite Canteens</string>
+    <string name="canteen_desc_empty">No favourite canteens</string>
+    <string name="canteen_desc">%s favourite canteens</string>
+    <string name="canteen_choose_title">Favourite Canteens</string>
+    <string name="canteen_choose_desc">Choose your preferred canteens from the list that is sorted by the distance to your current location.</string>
+
+    <string name="pref_theme">Theme</string>
+    <string name="pref_theme_dialog_title">Choose your preferred theme</string>
+    <string name="pref_theme_default">dark</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="light_theme">Light Theme</string>
+    
+    <string name="about_title">About</string>
+    <string name="version_title">Version</string>
+    <string name="version_desc">0.12</string>
+    <string name="license_title">License</string>
+    <string name="license">GNU General Public License, Version 3</string>
+    <string name="powered_by_title">Powered by</string>
+    <string name="powered_by_desc">OpenMensa</string>
+    <string name="author_title">Author</string>
+    <string name="author_desc">Dominik Moritz, Christian Nicolai, Jan Graichen, Jan Renz, Matthias Jacob</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="feedback_desc">Write me a short email and ask a question, thank me, or complain.</string>
+    <string name="settings_design_title">Design</string>
+    <string name="gefluegel">geflügel</string>
+    <string name="filter">filter</string>
+</resources>

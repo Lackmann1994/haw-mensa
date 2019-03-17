@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_theme_entries">
+        <item>@string/dark_theme</item>
+        <item>@string/light_theme</item>
+    </string-array>
+
+    <string-array name="pref_theme_entry_values">
+        <item>dark</item>
+        <item>light</item>
+    </string-array>
+
+
+    <string-array name="pref_server_entries">
+        <item>openmensa.org</item>
+        <item>stwno.de</item>
+    </string-array>
+
+    <string-array name="pref_server_entry_values">
+        <item>http://openmensa.org/api/v2/</item>
+        <item>https://stwno.de/infomax/daten-extern/csv/HS-LA</item>
+    </string-array>
+
+    <string-array name="filteritems">
+        <item>Vegetarisch</item>
+        <item>Vegan</item>
+        <item>Geflügel</item>
+        <item>Schweinefleisch</item>
+        <item>Rindfleisch</item>
+        <item>Lamm</item>
+        <item>Wild</item>
+        <item>Fisch</item>
+        <item>Alcohol</item>
+        <item>Mensa Vital</item>
+        <item>Juradistl</item>
+        <item>Bioland</item>
+        <item>Mit ausschließlich biologisch erzeugten Rohstoffen</item>
+    </string-array>
+
+    <string-array name="filteritemvalues">
+        <item>vegetarisch</item>
+        <item>vegan</item>
+        <item>Geflügel</item>
+        <item>Schweinefleisch</item>
+        <item>Rindfleisch</item>
+        <item>Lamm</item>
+        <item>Wild</item>
+        <item>Fisch</item>
+        <item>Alcohol</item>
+        <item>Mensa Vital</item>
+        <item>Juradistl</item>
+        <item>bioland</item>
+        <item>mit ausschließlich biologisch erzeugten Rohstoffen</item>
+    </string-array>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	<PreferenceCategory android:title="Filter">
+		<MultiSelectListPreference
+			android:key="pref_filter"
+			android:title="@string/contains"
+			android:dialogTitle="@string/contains_detailed"
+			android:entries="@array/filteritems"
+			android:entryValues="@array/filteritemvalues">
+		</MultiSelectListPreference>
+	</PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/source_title">
+        <de.haw_landshut.lackmann.haw_mensa.SelectFavouritesPreference
+ 			android:title="@string/canteen_title" 
+ 			android:summary="@string/canteen_desc"
+ 			android:key="pref_favourites"
+            android:persistent="true"
+ 			android:dialogMessage="@string/canteen_choose_desc"
+ 			android:dialogTitle="@string/canteen_choose_title"/>
+    	<!--<EditTextPreference-->
+    	    <!--android:title="@string/source_url_title"-->
+            <!--android:persistent="true"-->
+            <!--android:dialogMessage="@string/source_url_desc"-->
+    	    <!--android:defaultValue="@string/source_url_default"-->
+    	    <!--android:key="pref_source_url"/>-->
+
+
+        <ListPreference
+            android:key="pref_source_url"
+            android:title="@string/source_url_title"
+            android:dialogTitle="@string/source_url_desc"
+            android:entries="@array/pref_server_entries"
+            android:entryValues="@array/pref_server_entry_values"
+            android:defaultValue="@string/source_url_default" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/settings_design_title">
+
+        <ListPreference
+            android:key="pref_style"
+            android:title="@string/pref_theme"
+            android:dialogTitle="@string/pref_theme_dialog_title"
+            android:entries="@array/pref_theme_entries"
+            android:entryValues="@array/pref_theme_entry_values"
+            android:defaultValue="@string/pref_theme_default" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about_title">
+    	<Preference android:summary="@string/version_desc" android:title="@string/version_title"></Preference>
+
+    	<Preference android:title="@string/license_title" android:summary="@string/license">
+
+    	</Preference>
+    	
+    
+	</PreferenceCategory>
+    
+
+</PreferenceScreen>

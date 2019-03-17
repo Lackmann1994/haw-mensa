@@ -1,0 +1,21 @@
+<de.haw_landshut.lackmann.haw_mensa.CustomViewPager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MensaActivity">
+
+    <android.support.v4.view.PagerTitleStrip android:id="@+id/pager_title_strip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#be0b22"
+        android:textColor="#fff"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        tools:targetApi="ice_cream_sandwich">
+    </android.support.v4.view.PagerTitleStrip>
+
+</de.haw_landshut.lackmann.haw_mensa.CustomViewPager>

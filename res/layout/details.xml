@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:paddingBottom="10dip"
+    android:paddingLeft="@dimen/expanderPadding"
+    android:paddingTop="10dip"
+    android:paddingRight="10dip">
+	    
+    <RelativeLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="@string/students" />
+	
+	    <TextView
+	        android:id="@+id/txtPriceStudents"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="@dimen/priceListFloat"
+	        android:text="Lorem Ipsum" />
+    
+    </RelativeLayout>
+    
+    <RelativeLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="@string/employees" />
+	
+	    <TextView
+	        android:id="@+id/txtPriceEmployees"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="@dimen/priceListFloat"
+	        android:text=""
+            android:paddingStart="@dimen/priceListFloat"
+            tools:ignore="RtlSymmetry" />
+    
+    </RelativeLayout>
+    
+    <RelativeLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:visibility="gone" >
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="@string/pupils"
+            android:layout_alignParentStart="true" />
+
+		<TextView
+			android:id="@+id/txtPricePupils"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="@dimen/priceListFloat"
+			android:text=""
+            android:paddingStart="@dimen/priceListFloat" />
+    
+    </RelativeLayout>
+    
+    <RelativeLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="@string/other"
+            android:layout_alignParentStart="true" />
+	
+	    <TextView
+	        android:id="@+id/txtPriceOthers"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="@dimen/priceListFloat"
+	        android:text=""
+            android:paddingStart="@dimen/priceListFloat" />
+    
+    </RelativeLayout>
+
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/icons"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+
+
+		<ImageView
+			android:id="@+id/iconGefluegel"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+			android:src="@drawable/gefluegel"
+            android:contentDescription="@string/gefluegel" />
+
+		<ImageView
+			android:id="@+id/iconSchwein"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+            android:src="@drawable/schwein"
+			android:layout_toRightOf="@+id/iconGefluegel"
+			android:layout_toEndOf="@+id/iconGefluegel" />
+
+		<ImageView
+			android:id="@+id/iconRind"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+			android:src="@drawable/rind"
+			android:layout_toRightOf="@+id/iconSchwein"
+			android:layout_toEndOf="@+id/iconSchwein" />
+
+		<ImageView
+			android:id="@+id/iconLamm"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+			android:src="@drawable/lamm"
+			android:layout_toRightOf="@+id/iconRind"
+			android:layout_toEndOf="@+id/iconRind" />
+
+		<ImageView
+			android:id="@+id/iconWild"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+			android:src="@drawable/wild"
+			android:layout_toRightOf="@+id/iconLamm"
+			android:layout_toEndOf="@+id/iconLamm" />
+
+		<ImageView
+			android:id="@+id/iconFisch"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+			android:src="@drawable/fisch"
+			android:layout_toRightOf="@+id/iconWild"
+			android:layout_toEndOf="@+id/iconWild" />
+
+		<ImageView
+			android:id="@+id/iconAlcohol"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+			android:src="@drawable/alkohol"
+			android:layout_toRightOf="@+id/iconFisch"
+			android:layout_toEndOf="@+id/iconFisch"  />
+
+		<ImageView
+			android:id="@+id/iconVegetarisch"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+			android:src="@drawable/vegetarisch"
+			android:layout_toRightOf="@+id/iconAlcohol"
+			android:layout_toEndOf="@+id/iconAlcohol" />
+
+		<ImageView
+			android:id="@+id/iconVegan"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+			android:src="@drawable/vegan"
+			android:layout_toRightOf="@+id/iconVegetarisch"
+			android:layout_toEndOf="@+id/iconVegetarisch" />
+
+		<ImageView
+			android:id="@+id/iconMensa_vital"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+			android:src="@drawable/mensa_vital"
+			android:layout_toRightOf="@+id/iconVegan"
+			android:layout_toEndOf="@+id/iconVegan" />
+
+		<ImageView
+			android:id="@+id/iconJuradistllamm"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentTop="true"
+			android:visibility="gone"
+			android:src="@drawable/juradistllamm"
+			android:layout_toRightOf="@+id/iconMensa_vital"
+			android:layout_toEndOf="@+id/iconMensa_vital" />
+
+        <ImageView
+            android:id="@+id/iconBioland"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:src="@drawable/bioland"
+            android:layout_toRightOf="@+id/iconJuradistllamm"
+            android:layout_toEndOf="@+id/iconJuradistllamm" />
+
+        <ImageView
+            android:id="@+id/eu_organic"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:src="@drawable/eu_organic"
+            android:layout_toRightOf="@+id/iconBioland"
+            android:layout_toEndOf="@+id/iconBioland" />
+
+
+
+	</RelativeLayout>
+</LinearLayout>
