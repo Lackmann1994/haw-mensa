@@ -168,7 +168,6 @@ public class MainActivity extends SherlockFragmentActivity implements
         Day day = new Day("");
 
         Canteen canteen = storage.getCurrentCanteen();
-//        canteen = storage.canteen;
 
 
         Log.d(MainActivity.TAG, "Meal cache miss");
@@ -232,7 +231,7 @@ public class MainActivity extends SherlockFragmentActivity implements
                                 baseUrl +"/"+ (week + 1) + ".csv?t=1552396597"
                         });
                     } else {
-                        RetrieveFeedTask task = new RetrieveDaysFeedTaskCSV(MainActivity.context, this, this, canteen, dateString);
+                        RetrieveFeedTask task = new RetrieveDaysFeedJsonTask(MainActivity.context, this, this, canteen, dateString);
                         task.execute(new String[]{url, url2});
                     }
                     startedFetching = true;
@@ -371,10 +370,6 @@ public class MainActivity extends SherlockFragmentActivity implements
             case R.id.menu_settings:
                 Intent settings = new Intent(this, SettingsActivity.class);
                 startActivity(settings);
-                return true;
-            case R.id.filter:
-                Intent filter = new Intent(this, FilterActivity.class);
-                startActivity(filter);
                 return true;
             case R.id.reload:
                 reload(true);

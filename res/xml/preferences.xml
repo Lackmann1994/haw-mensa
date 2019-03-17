@@ -13,13 +13,13 @@
 	</PreferenceCategory>
 
     <PreferenceCategory android:title="@string/source_title">
-        <de.haw_landshut.lackmann.haw_mensa.SelectFavouritesPreference
- 			android:title="@string/canteen_title" 
- 			android:summary="@string/canteen_desc"
- 			android:key="pref_favourites"
-            android:persistent="true"
- 			android:dialogMessage="@string/canteen_choose_desc"
- 			android:dialogTitle="@string/canteen_choose_title"/>
+        <!--<de.haw_landshut.lackmann.haw_mensa.SelectFavouritesPreference-->
+ 			<!--android:title="@string/canteen_title"-->
+ 			<!--android:summary="@string/canteen_desc"-->
+ 			<!--android:key="pref_favourites"-->
+            <!--android:persistent="true"-->
+ 			<!--android:dialogMessage="@string/canteen_choose_desc"-->
+ 			<!--android:dialogTitle="@string/canteen_choose_title"/>-->
     	<!--<EditTextPreference-->
     	    <!--android:title="@string/source_url_title"-->
             <!--android:persistent="true"-->
@@ -51,7 +51,6 @@
 
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/about_title">
-    	<Preference android:summary="@string/version_desc" android:title="@string/version_title"></Preference>
 
     	<Preference android:title="@string/license_title" android:summary="@string/license">
 

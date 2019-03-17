@@ -12,10 +12,5 @@
         android:menuCategory="container"
         android:showAsAction="ifRoom"
         android:title="@string/reload"></item>
-    <item
-        android:id="@+id/filter"
-        android:icon="@drawable/filter"
-        android:menuCategory="container"
-        android:showAsAction="ifRoom"
-        android:title="@string/filter"></item>
+
 </menu>

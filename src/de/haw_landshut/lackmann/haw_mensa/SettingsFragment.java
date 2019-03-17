@@ -19,7 +19,7 @@ public class SettingsFragment extends PreferenceFragment implements OnSharedPref
         editTextPref.setSummary(sp.getString(SettingsUtils.KEY_SOURCE_URL, editTextPref.getValue()));
         ListPreference themePref = (ListPreference) findPreference(SettingsUtils.KEY_STYLE);
         themePref.setSummary(themePref.getEntry());
-        updateFavouriteCanteensSummary();
+//        updateFavouriteCanteensSummary();
     }
 
     public void onResume() {

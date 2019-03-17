@@ -7,7 +7,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.ParseException;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 import android.app.Activity;
@@ -22,7 +21,6 @@ import com.google.gson.Gson;
 
 import de.siegmar.fastcsv.reader.CsvParser;
 import de.siegmar.fastcsv.reader.CsvReader;
-import de.siegmar.fastcsv.reader.CsvRow;
 
 
 public abstract class RetrieveFeedTask extends AsyncTask<String, Integer, Void> {
@@ -120,7 +118,8 @@ public abstract class RetrieveFeedTask extends AsyncTask<String, Integer, Void> 
                     while ((count2 = in2.read(buf2, 0, DEFAULT_BUFFER_SIZE)) > 0) {
                         builder2.append(buf2, 0, count2);
                     }
-                    json = json.substring(0, builder.toString().length() - 1) + ',' + builder2.toString().substring(1);
+                    if (builder2.toString().length() > 3)
+                        json = json.substring(0, builder.toString().length() - 1) + ',' + builder2.toString().substring(1);
 
 
                 }
